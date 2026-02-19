@@ -6,10 +6,11 @@ This repository is designed to be referenced by AI agents for setting up new dev
 
 | Repository | URL | Purpose |
 |------------|-----|---------|
-| **Secure Vault** | https://github.com/godofecht/secure-vault | Encrypted credentials (private) |
-| **Device Setup** | https://github.com/godofecht/device-setup | Setup automation scripts |
-| **Dotfiles** | https://github.com/godofecht/dotfiles | Shell, git, SSH configs |
-| **Dev Tools** | https://github.com/godofecht/dev-tools | Development environment installer |
+| **Secure Vault** 🔒 | https://github.com/godofecht/secure-vault | Encrypted credentials (private) |
+| **Device Setup** 🚀 | https://github.com/godofecht/device-setup | Setup automation scripts |
+| **Dotfiles** 🔖 | https://github.com/godofecht/dotfiles | Shell, git, SSH configs |
+| **Dev Tools** 🛠️ | https://github.com/godofecht/dev-tools | Development environment installer |
+| **Backup** 💾 | https://github.com/godofecht/backup | Encrypted automated backups (private) |
 
 ## Agent Checklist
 
