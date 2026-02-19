@@ -6,8 +6,10 @@ This repository is designed to be referenced by AI agents for setting up new dev
 
 | Repository | URL | Purpose |
 |------------|-----|---------|
-| Secure Vault | https://github.com/godofecht/secure-vault | Encrypted credentials |
-| Device Setup | https://github.com/godofecht/device-setup | This repo - setup automation |
+| **Secure Vault** | https://github.com/godofecht/secure-vault | Encrypted credentials (private) |
+| **Device Setup** | https://github.com/godofecht/device-setup | Setup automation scripts |
+| **Dotfiles** | https://github.com/godofecht/dotfiles | Shell, git, SSH configs |
+| **Dev Tools** | https://github.com/godofecht/dev-tools | Development environment installer |
 
 ## Agent Checklist
 
@@ -54,6 +56,17 @@ When setting up a new device, an AI agent should:
    e. Verify decryption works:
    ```bash
    gpg --decrypt ~/secure-vault/credentials.gpg
+   ```
+
+3. **Set up complete environment:**
+   ```bash
+   # Clone and install dotfiles
+   gh repo clone godofecht/dotfiles ~/dotfiles
+   cd ~/dotfiles && ./install.sh
+   
+   # Clone and install dev tools (optional)
+   gh repo clone godofecht/dev-tools ~/dev-tools
+   cd ~/dev-tools && ./install.sh --all
    ```
 
 ## Credentials Access
